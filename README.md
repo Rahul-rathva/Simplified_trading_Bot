@@ -107,7 +107,7 @@ Perfect for learning, experimenting, or kickstarting your journey into automated
 ---
 
 ## 🧩 Example Code
-- See the `bot.py` file for a complete example.
+- See the `main.py` file for a complete example.
 
 ---
 
