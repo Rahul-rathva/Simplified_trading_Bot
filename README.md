@@ -59,22 +59,22 @@ Perfect for learning, experimenting, or kickstarting your journey into automated
 ### Usage
 - Run the bot:
   ```bash
-  python bot.py
+  python main.py
   ```
 
 - Place a market order:
   ```bash
-  python bot.py market 0.001 BTC
+  python main.py market BTCUSDT buy 0.001
   ```
 
 - Place a limit order:
   ```bash
-  python bot.py limit 0.001 BTC 10000
+  python main.py limit BTCUSDT sell 0.001 10000
   ```
 
 - View logs:
   ```bash
-  python bot.py --logs
+  python main.py --logs
   ```
 
 ---
@@ -82,7 +82,7 @@ Perfect for learning, experimenting, or kickstarting your journey into automated
 ## 🧪 Testing
 - Run tests with:
   ```bash
-  python -m pytest tests/
+  pytest
   ```
 
 ---
