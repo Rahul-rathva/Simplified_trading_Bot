@@ -30,13 +30,13 @@ def main():
         side=args.side,
         quantity=args.quantity,
         order_type=args.type,
-        price=args_price
+        price=args.price
     )
 
     if order:
-        Logger.info("Order placed Successfully!")
+        logger.info("Order placed Successfully!")
     else:
-        Logger.error("Order Execution Failed!")
+        logger.error("Order Execution Failed!")
 
 if __name__ == "__main__":
     main()
